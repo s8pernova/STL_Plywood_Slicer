@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import type { Mesh } from "../types";
-import vertexShaderSrc from "../shaders/viewer.vert.glsl?raw";
-import fragmentShaderSrc from "../shaders/viewer.frag.glsl?raw";
+import vertexShaderSrc from "../shaders/viewer.vert.glsl";
+import fragmentShaderSrc from "../shaders/viewer.frag.glsl";
 
 interface ThreeDViewerProps {
 	mesh: Mesh | null;
